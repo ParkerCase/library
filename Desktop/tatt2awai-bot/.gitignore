@@ -1,0 +1,32 @@
+# Sensitive files
+supple-life-437019-e0-4f62415a8447.json
+.token-store.json
+.env
+
+# Folders to ignore
+node_modules/
+uploads/
+cache/
+signature_backups/
+ssl/
+test/
+opencv4nodejs/
+opencv-service/
+Desktop/
+test/
+.github/
+
+# Files to ignore
+*.log
+.DS_Store
+*.save
+*.save.*
+*.backup
+test.png
+test-tiny.png
+
+# Ensure no credentials are committed
+*.pem
+*.key
+*.cert
+*.json.key
